@@ -2,7 +2,7 @@ name: Scrape OTA rates
 
 on:
   schedule:
-    - cron: "*/115 * * * *" # every 30 minutes
+    - cron: "*/4 * * * *" # every 30 minutes
   workflow_dispatch: {}
 
 jobs:
