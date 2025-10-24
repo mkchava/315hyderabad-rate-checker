@@ -3,6 +3,43 @@
 // NOTE: Selectors are heuristics and may need adjustment if sites change.
 
 const { chromium } = require('playwright');
+// Add near top of scrape.js
+const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
+
+async function prep(page) {
+  await page.setExtraHTTPHeaders({ "Accept-Language": "en-IN,en;q=0.9" });
+  await page.setUserAgent(UA);
+  // Basic cookie-consent clickers (best-effort)
+  const candidates = [
+    'button:has-text("Accept")', 'button:has-text("I agree")',
+    'button[aria-label="Accept all"]', 'text="Accept all cookies"'
+  ];
+  for (const sel of candidates) {
+    try { await page.locator(sel).first().click({ timeout: 1500 }); } catch {}
+  }
+}
+
+async function waitRender(page) {
+  // Try for dynamic lists
+  await page.waitForLoadState('domcontentloaded', { timeout: 20000 });
+  await page.waitForTimeout(3000);
+  // scroll a bit to trigger lazy loads
+  for (let i=0;i<4;i++){ await page.mouse.wheel(0, 800); await page.waitForTimeout(800); }
+  await page.waitForLoadState('networkidle', { timeout: 20000 }).catch(()=>{});
+}
+
+function pickFirstNumber(texts) {
+  let best = Infinity;
+  for (const t of texts) {
+    const s = String(t).replace(/[, ]+/g,' ');
+    const m = s.match(/(?:₹|INR)?\\s*([0-9]{3,6})(?:\\.[0-9]{1,2})?/);
+    if (m) {
+      const n = Number(m[1]);
+      if (Number.isFinite(n) && n>0 && n<best) best = n;
+    }
+  }
+  return best === Infinity ? null : best;
+}
 
 const TARGETS = [
   {
