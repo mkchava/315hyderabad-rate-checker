@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-10-28T05:21:54.224Z",
+  "updatedAt": "2025-10-28T06:34:56.278Z",
   "checkin": "2025-10-28",
   "checkout": "2025-10-29",
   "results": [
@@ -27,8 +27,7 @@
       "site": "oyo",
       "name": "OYO",
       "url": "https://www.oyorooms.com/search?location=Kondapur%2C%20Hyderabad&checkin=2025-10-28&checkout=2025-10-29&guests=2&rooms=1",
-      "price": null,
-      "error": "page.goto: Navigation to \"https://www.oyorooms.com/search?location=Kondapur%2C%20Hyderabad&checkin=2025-10-28&checkout=2025-10-29&guests=2&rooms=1\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"https://www.oyorooms.com/search?location=Kondapur%2C%20Hyderabad&checkin=2025-10-28&checkout=2025-10-29&guests=2&rooms=1\", waiting until \"domcontentloaded\"\n"
+      "price": null
     }
   ]
 }
