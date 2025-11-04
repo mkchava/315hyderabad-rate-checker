@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-11-04T15:25:37.764Z",
+  "updatedAt": "2025-11-04T16:27:14.295Z",
   "checkin": "2025-11-04",
   "checkout": "2025-11-05",
   "results": [
@@ -21,14 +21,14 @@
       "name": "Goibibo",
       "url": "https://www.goibibo.com/hotels/hotels-in-hyderabad-ct/?check_in=20251104&check_out=20251105&nearby=Kondapur&r=1-2-0",
       "price": null,
-      "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.goibibo.com/hotels/hotels-in-hyderabad-ct/?check_in=20251104&check_out=20251105&nearby=Kondapur&r=1-2-0\nCall log:\n  - navigating to \"https://www.goibibo.com/hotels/hotels-in-hyderabad-ct/?check_in=20251104&check_out=20251105&nearby=Kondapur&r=1-2-0\", waiting until \"domcontentloaded\"\n"
+      "error": "page.goto: Navigation to \"https://www.goibibo.com/hotels/hotels-in-hyderabad-ct/?check_in=20251104&check_out=20251105&nearby=Kondapur&r=1-2-0\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"https://www.goibibo.com/hotels/hotels-in-hyderabad-ct/?check_in=20251104&check_out=20251105&nearby=Kondapur&r=1-2-0\", waiting until \"domcontentloaded\"\n"
     },
     {
       "site": "oyo",
       "name": "OYO",
       "url": "https://www.oyorooms.com/search?location=Kondapur%2C%20Hyderabad&checkin=2025-11-04&checkout=2025-11-05&guests=2&rooms=1",
       "price": null,
-      "error": "page.goto: Navigation to \"https://www.oyorooms.com/search?location=Kondapur%2C%20Hyderabad&checkin=2025-11-04&checkout=2025-11-05&guests=2&rooms=1\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"https://www.oyorooms.com/search?location=Kondapur%2C%20Hyderabad&checkin=2025-11-04&checkout=2025-11-05&guests=2&rooms=1\", waiting until \"domcontentloaded\"\n"
+      "error": "page.goto: Navigation to \"https://www.oyorooms.com/search?location=Kondapur%2C%20Hyderabad&checkin=2025-11-04&checkout=2025-11-05&guests=2&rooms=1\" is interrupted by another navigation to \"https://www.goibibo.com/hotels/hotels-in-hyderabad-ct/?check_in=20251104&check_out=20251105&nearby=Kondapur&r=1-2-0\"\nCall log:\n  - navigating to \"https://www.oyorooms.com/search?location=Kondapur%2C%20Hyderabad&checkin=2025-11-04&checkout=2025-11-05&guests=2&rooms=1\", waiting until \"domcontentloaded\"\n"
     }
   ]
 }
