@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-02-19T23:31:53.262Z",
-  "checkin": "2026-02-19",
-  "checkout": "2026-02-20",
+  "updatedAt": "2026-02-20T02:12:37.857Z",
+  "checkin": "2026-02-20",
+  "checkout": "2026-02-21",
   "results": [
     {
       "site": "booking",
       "name": "Booking.com",
-      "url": "https://www.booking.com/searchresults.html?ss=Kondapur%2C%20Hyderabad&checkin=2026-02-19&checkout=2026-02-20&group_adults=2&no_rooms=1&order=price",
+      "url": "https://www.booking.com/searchresults.html?ss=Kondapur%2C%20Hyderabad&checkin=2026-02-20&checkout=2026-02-21&group_adults=2&no_rooms=1&order=price",
       "price": null
     },
     {
       "site": "mmt",
       "name": "MakeMyTrip",
-      "url": "https://www.makemytrip.com/hotels/hotel-listing/?checkin=2026-02-19&checkout=2026-02-20&locusId=CTHYD&locusType=city&searchText=Kondapur%2C%20Hyderabad&roomStayQualifier=1e2e0e",
+      "url": "https://www.makemytrip.com/hotels/hotel-listing/?checkin=2026-02-20&checkout=2026-02-21&locusId=CTHYD&locusType=city&searchText=Kondapur%2C%20Hyderabad&roomStayQualifier=1e2e0e",
       "price": null,
-      "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.makemytrip.com/hotels/hotel-listing/?checkin=2026-02-19&checkout=2026-02-20&locusId=CTHYD&locusType=city&searchText=Kondapur%2C%20Hyderabad&roomStayQualifier=1e2e0e\nCall log:\n  - navigating to \"https://www.makemytrip.com/hotels/hotel-listing/?checkin=2026-02-19&checkout=2026-02-20&locusId=CTHYD&locusType=city&searchText=Kondapur%2C%20Hyderabad&roomStayQualifier=1e2e0e\", waiting until \"domcontentloaded\"\n"
+      "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.makemytrip.com/hotels/hotel-listing/?checkin=2026-02-20&checkout=2026-02-21&locusId=CTHYD&locusType=city&searchText=Kondapur%2C%20Hyderabad&roomStayQualifier=1e2e0e\nCall log:\n  - navigating to \"https://www.makemytrip.com/hotels/hotel-listing/?checkin=2026-02-20&checkout=2026-02-21&locusId=CTHYD&locusType=city&searchText=Kondapur%2C%20Hyderabad&roomStayQualifier=1e2e0e\", waiting until \"domcontentloaded\"\n"
     },
     {
       "site": "goibibo",
       "name": "Goibibo",
-      "url": "https://www.goibibo.com/hotels/hotels-in-hyderabad-ct/?check_in=20260219&check_out=20260220&nearby=Kondapur&r=1-2-0",
+      "url": "https://www.goibibo.com/hotels/hotels-in-hyderabad-ct/?check_in=20260220&check_out=20260221&nearby=Kondapur&r=1-2-0",
       "price": null,
-      "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.goibibo.com/hotels/hotels-in-hyderabad-ct/?check_in=20260219&check_out=20260220&nearby=Kondapur&r=1-2-0\nCall log:\n  - navigating to \"https://www.goibibo.com/hotels/hotels-in-hyderabad-ct/?check_in=20260219&check_out=20260220&nearby=Kondapur&r=1-2-0\", waiting until \"domcontentloaded\"\n"
+      "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.goibibo.com/hotels/hotels-in-hyderabad-ct/?check_in=20260220&check_out=20260221&nearby=Kondapur&r=1-2-0\nCall log:\n  - navigating to \"https://www.goibibo.com/hotels/hotels-in-hyderabad-ct/?check_in=20260220&check_out=20260221&nearby=Kondapur&r=1-2-0\", waiting until \"domcontentloaded\"\n"
     },
     {
       "site": "oyo",
       "name": "OYO",
-      "url": "https://www.oyorooms.com/search?location=Kondapur%2C%20Hyderabad&checkin=2026-02-19&checkout=2026-02-20&guests=2&rooms=1",
+      "url": "https://www.oyorooms.com/search?location=Kondapur%2C%20Hyderabad&checkin=2026-02-20&checkout=2026-02-21&guests=2&rooms=1",
       "price": null,
-      "error": "page.goto: Navigation to \"https://www.oyorooms.com/search?location=Kondapur%2C%20Hyderabad&checkin=2026-02-19&checkout=2026-02-20&guests=2&rooms=1\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"https://www.oyorooms.com/search?location=Kondapur%2C%20Hyderabad&checkin=2026-02-19&checkout=2026-02-20&guests=2&rooms=1\", waiting until \"domcontentloaded\"\n"
+      "error": "page.goto: Navigation to \"https://www.oyorooms.com/search?location=Kondapur%2C%20Hyderabad&checkin=2026-02-20&checkout=2026-02-21&guests=2&rooms=1\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"https://www.oyorooms.com/search?location=Kondapur%2C%20Hyderabad&checkin=2026-02-20&checkout=2026-02-21&guests=2&rooms=1\", waiting until \"domcontentloaded\"\n"
     }
   ]
 }
