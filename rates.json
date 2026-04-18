@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-18T10:42:20.041Z",
+  "updatedAt": "2026-04-18T11:36:28.226Z",
   "checkin": "2026-04-18",
   "checkout": "2026-04-19",
   "results": [
@@ -7,8 +7,7 @@
       "site": "booking",
       "name": "Booking.com",
       "url": "https://www.booking.com/searchresults.html?ss=Kondapur%2C%20Hyderabad&checkin=2026-04-18&checkout=2026-04-19&group_adults=2&no_rooms=1&order=price",
-      "price": null,
-      "error": "page.$$eval: Execution context was destroyed, most likely because of a navigation"
+      "price": null
     },
     {
       "site": "mmt",
